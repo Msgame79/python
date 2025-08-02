@@ -1,0 +1,46 @@
+categories {
+any "Any%" ()
+checkpoint "Checkpoint%" (checkpoint)
+nocheckpoint "No Checkpoint%" (nocheckpoint)
+jumpless "Jumpless%" (jumpless)
+voiceline "Voiceline%" (voiceline)
+glitchless "Glitchless%" ()
+onearm "One Arm%" ()
+random "Randomize%" ()
+}
+mappacks {
+main "ノーマルステージ"{
+0 "ミュージアム"
+1 "トレイン"
+2 "オハコビ"
+3 "マウンテン"
+4 "コウジゲンバ"
+5 "キャッスル"
+6 "ウォーター"
+7 "ハツデンショ"
+8 "アステカ"
+9 "ダーク"
+10 "スチーム"
+11 "アイス"
+12 "リプライズ"
+}
+extra "エクストラステージ"{
+100 "サーマル"
+101 "ファクトリー"
+102 "ゴルフ"
+103 "シティ"
+104 "フォレスト"
+105 "ラボラトリー"
+106 "ランバー"
+107 "レッドロック"
+108 "タワー"
+109 "ミニチュア"
+110 "カッパーワールド"
+112 "ポート"
+113 "アンダーウォーター"
+114 "ドックヤード"
+115 "美術館"
+116 "ハイキング"
+117 "キャンディランド"
+118 "Test Chamber"
+}
