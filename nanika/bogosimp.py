@@ -6,6 +6,7 @@ compiled with pyinstaller
 
 import random
 import os
+import time
 
 while True:
     while True:
@@ -19,10 +20,12 @@ while True:
         except ValueError:
             pass
     b=0
+    c=time.time()
     while True:
         b+=1
         if list(range(int(a)))==random.sample(list(range(int(a))),int(a)):
             break
+    d=time.time()-c
     os.system("cls")
-    print("Length:"+str(a)+"\ncount:"+str(b))
+    print("Length:"+str(a)+"\ncount:"+str(b)+"\ntime:"+str(d))
     input()
