@@ -12,7 +12,7 @@ while True:
     while True:
         try:
             os.system("cls")
-            a=input("Insert an positive integer:")
+            a=input("Insert a positive integer:")
             if int(a)>=1:
                 break
             else:
