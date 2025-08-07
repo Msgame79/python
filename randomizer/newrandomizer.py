@@ -27,13 +27,13 @@ while True:
             text += str(i+1)+": "+levels[levelindex[i]]+"\n"
         else:
             text += str(i+1)+": "+levels[levelindex[i]]
-    ID = 0
+    id = 0
     temp=list(range(len(levels)))
     for i in range(len(levels)):
         for j in range(len(levels)):
             if levelindex[i] == temp[j]:
                 temp.pop(j)
-                ID += j * math.factorial(len(levels) - 1 - i)
+                id += j * math.factorial(len(levels) - 1 - i)
                 break
 
     try:
@@ -42,7 +42,6 @@ while True:
         pass
     with open("./ForOBS.txt","w",encoding="utf-8") as a:
         a.write(text)
-        a.close()
 
     try:
         os.remove("./Timer categories.txt")
@@ -101,15 +100,14 @@ while True:
             text1 = original.read()
             original.close()
 
-    text1 += "random \"Randomize%("+str(ID)+")\" {\n"
+    text1 += "random \"Randomize%("+str(id)+")\" {\n"
     for b in range(len(levels)):
         text1 += str(levelindex[b]) + " \"" + levels[levelindex[b]] + "\"\n"
     text1 += "}\n}"
 
     with open("./Timer Categories.txt","w",encoding="utf-8") as c:
         c.write(text1)
-        c.close()
-    text2 = "ID:"+str(ID)+"\n"
+    text2 = "id:"+str(id)+"\n"
     for d in range(len(levels)):
         text2 += levels[levelindex[d]] + "\n"
     text2 += "\nFinished successfully.\nEnter to Regenerate."
