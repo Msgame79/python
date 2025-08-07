@@ -19,7 +19,7 @@ while True:
         try:
             clear_screen()
             a = input("Insert a positive integer:")
-            if int(a) >= 1 and int(a) <= math.factorial(13):
+            if int(a) >= 1 and int(a) < math.factorial(13):
                 break
             else:
                 pass
