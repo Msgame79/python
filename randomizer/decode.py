@@ -20,7 +20,7 @@ while True:
     while True:
         try:
             clear_screen()
-            a = input("Insert an integer between 0 and "+str(math.factorial(len(levels))-1)+" otherwise generate a mnumber:")
+            a = input("Insert an integer between 0 and "+str(math.factorial(len(levels))-1)+" otherwise generate a number:")
             if 0 <= int(a) and int(a) <= math.factorial(len(levels))-1:
                 break
             else:
@@ -28,7 +28,7 @@ while True:
         except ValueError:
             a = random.randint(0,math.factorial(len(levels))-1)
             clear_screen()
-            print("Insert an integer between 0 and "+str(math.factorial(len(levels))-1)+" otherwise generate a mnumber:"+str(a))
+            print("Insert an integer between 0 and "+str(math.factorial(len(levels))-1)+" otherwise generate a number:"+str(a))
             break
 
     b=int(a)
