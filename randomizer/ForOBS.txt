@@ -1,13 +1,13 @@
-1 : Steam
-2 : Water
-3 : Power Plant
-4 : Reprise
-5 : Carry
-6 : Demolition
-7 : Mansion
-8 : Ice
-9 : Castle
-10: Aztec
-11: Mountain
-12: Dark
-13: Train
+1 : Water
+2 : Mansion
+3 : Demolition
+4 : Steam
+5 : Castle
+6 : Carry
+7 : Ice
+8 : Aztec
+9 : Mountain
+10: Reprise
+11: Train
+12: Power Plant
+13: Dark

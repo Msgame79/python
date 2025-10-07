@@ -94,6 +94,7 @@ while True:
     116 "ハイキング"
     117 "キャンディランド"
     118 "Test Chamber"
+    
     }"""
     else:
         with open("./original.txt","r",encoding="utf-8") as original:
